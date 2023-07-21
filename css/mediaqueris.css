@@ -1,0 +1,105 @@
+@media (max-width: 992px) {
+  .hero-text h1 {
+    font-size: 44px;
+  }
+  .commant blockquote {
+    font-size: 18px;
+  }
+  .secondary-title {
+    font-size: 44px;
+  }
+  .swiper {
+    height: 500px;
+  }
+  .footer-social {
+    padding-top: 20px;
+    width: 30%;
+    justify-content: space-evenly;
+  }
+  .team-section-title .wave-background {
+    width: 65%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .navbar-social-icon {
+    display: none !important;
+  }
+  .secondary-title {
+    font-size: 36px;
+  }
+  .section-products .header h2 {
+    font-size: 1.5rem;
+  }
+  .commant blockquote {
+    font-size: 16px;
+  }
+  .swiper {
+    height: 400px;
+  }
+  .swiper .swiper-heading {
+    display: none;
+  }
+  .testi-img,
+  .commant {
+    position: unset;
+    width: 100%;
+    clip-path: none;
+  }
+  .commant {
+    padding: 0 10px 20px 10px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 50px;
+  }
+  .swiper-slide {
+    flex-direction: column;
+  }
+  .testimonial-section .container .secondary-title {
+    display: block !important;
+    font-size: 24px;
+  }
+  .swiper-btns-sec {
+    display: none;
+  }
+  .swiper-pagination {
+    display: block;
+  }
+  .swiper-pagination-bullet {
+    background: #fff;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #2980b9;
+  }
+  .contact-title-2 {
+    display: block;
+  }
+  .contact-title-1 {
+    display: none;
+  }
+}
+@media (max-width: 554px) {
+  .hero-text h1 {
+    font-size: 38px;
+  }
+  .section-products .header h2 {
+    font-size: 1.25rem;
+  }
+  .secondary-title {
+    font-size: 32px;
+  }
+  .prev-btn2,
+  .next-btn2 {
+    display: none;
+  }
+  .team-section-title .wave-background {
+    width: 90%;
+  }
+  .footer-social a svg {
+    width: 16px;
+    height: 16px;
+  }
+  .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
