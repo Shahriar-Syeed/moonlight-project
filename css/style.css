@@ -260,14 +260,9 @@ body {
   background-color: #adb5bd;
   padding: 10px;
 }
-.icon-link {
-  display: inline-flex;
-  gap: 0.375rem;
-  align-items: center;
-
-  text-decoration-color: rgb(13, 110, 253);
-  text-underline-offset: 0.25em;
-  backface-visibility: hidden;
+.icon-link:hover svg {
+  fill: #bae6fd;
+  font-size: 18px;
 }
 .feature-icon .bi {
   width: 100%;
@@ -288,7 +283,7 @@ a {
   padding: 80px 0 54px 0;
 }
 .section-products {
-  background-color: #cff4fc;
+  background-color: #ffffff;
   position: inherit;
   /* z-index: -2; */
 }
@@ -1371,7 +1366,7 @@ a {
 /*    TESTIMONIAL SECTION  */
 /* }********************** */
 .testimonial-section {
-  background: linear-gradient(#d6f2f9, #f5f3f3ee);
+  background: #d6f2f9;
   padding-bottom: 85px;
 }
 .secondary-title {
@@ -1524,7 +1519,7 @@ blockquote::after {
 /* }********************** */
 .team-section {
   padding: 50px 0;
-  background-image: linear-gradient(#f5f3f3ee, #cff4fc, #888);
+  background-image: #f5f3f3ee;
 }
 .team-section-title .wave-background {
   top: 50%;
@@ -1565,7 +1560,7 @@ blockquote::after {
 }
 .nav-tabs .nav-link.active {
   color: #fff;
-  background: radial-gradient(#546e7a, #adb5bd);
+  background: #111111;
 }
 
 /* }****************** *****/
@@ -1573,7 +1568,7 @@ blockquote::after {
 /* }********************** */
 .contact-section {
   padding: 90px 0;
-  background-image: linear-gradient(#999, #171613);
+  background: #999;
 }
 .contact-title-2 {
   display: none;
@@ -1807,7 +1802,7 @@ blockquote::after {
 /*        LOGIN PAGE        */
 /* }********************** */
 .login-section {
-  background-image: linear-gradient(#546e7a, #171613);
+  background-image: #546e7a;
 }
 .hidden {
   display: none;
